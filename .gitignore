@@ -1,0 +1,48 @@
+# macOS / editors
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+openai_api_key*
+
+# Private runtime configuration. Commit only the example templates below.
+data_input/*.json
+!data_input/*.example.json
+
+# Personal/reference images. Commit only the directory documentation.
+images_input/*
+!images_input/README.md
+images_backup/
+
+# Generated station data, selection history, prompts, and artwork
+data_output/
+images_output/
+
+# Local exploratory scripts containing station/location-specific defaults.
+# The supported pipeline lives in the other src/ files.
+src/artwork_feed.py
+src/find_close_location.py
+src/longer_query.py
+src/query_nearyby_station.py
+
+# Local Codex state and automation metadata, if created inside the project
+.codex/
+.agents/

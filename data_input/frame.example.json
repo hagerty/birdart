@@ -1,0 +1,10 @@
+{
+  "host": "192.168.1.100",
+  "mac": "00:11:22:33:44:55",
+  "broadcast_address": "192.168.1.255",
+  "matte": "none",
+  "wake_before_upload": true,
+  "wake_wait_seconds": 12,
+  "connection_attempts": 3,
+  "retry_delay_seconds": 20
+}

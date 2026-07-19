@@ -1,0 +1,27 @@
+Create a 16:9 landscape artwork for a Samsung Frame TV, styled as an elegant vintage naturalist journal on warm, matte watercolor paper.
+
+This is a reusable template. Resolve all double-braced fields from the current BirdWeather query before image generation. The date field means today's date in the configured timezone. Never reuse dates or facts visible in a reference image.
+
+The visual story is discovery, not system performance. Do not show model confidence, minimum-confidence thresholds, retrieval counts, or “Last 1 Day.” Rarity language must describe this station only; use “unusual here,” never claim that a species is globally or biologically rare.
+
+Every word should look written by the same practiced naturalist using dark olive or warm sepia ink. Use three related handwritten treatments: a large expressive field-journal script for the title, neat hand-lettered small caps for section labels, and relaxed cursive or printed field notes for bird names, observations, times, summary, garden labels, and footer. Preserve natural ink-pressure variation and slight human irregularity while remaining legible from television distance. Avoid typeset serif fonts, wedding calligraphy, modern brush script, chalkboard lettering, or perfectly repeated digital letterforms.
+
+Place the bird-journal content across roughly the left two-thirds with generous breathing room:
+
+* One large handwritten title: “The Fountain Chorus,” set at a slight natural angle with a loose underline that can taper into a painted twig
+* Handwritten date beneath the title: “{{TODAY_DATE}}”
+* Quiet summary: “{{SPECIES_COUNT}} species today • {{UNUSUAL_COUNT}} unusual voices”
+* Primary bird labeled “Today’s Standout”: {{STANDOUT_SPECIES}}
+* Standout annotation: “Unusual at this fountain”
+* Standout evidence: “{{STANDOUT_HISTORY}}” and “heard at {{STANDOUT_TIME}}”
+* Smaller secondary bird labeled “Latest Visitor”: {{LATEST_SPECIES}}, “heard at {{LATEST_TIME}}”
+* Integrate these recent visitors naturally into the trees, flowering branches, grasses, and fountain surroundings on the right:
+{{RECENT_VISITORS}}
+{{OVERHEAD_HAWK_DIRECTION}}
+* Footer quote: “The fountain is alive with voices. Every call a visitor, every song a gift.”
+
+The {{STANDOUT_SPECIES}} is the main focal point, marked only by a restrained faded-gold botanical medallion or small hand-drawn star. The {{LATEST_SPECIES}} is secondary. The integrated recent visitors should vary in scale and depth so they feel discovered within the habitat rather than arranged in a lineup. Give each a restrained handwritten species-name label with a faint leader line only where needed; do not show times for these supporting birds. A hawk, when supplied by the resolved overhead direction, belongs in the open sky above the fountain with wings extended in natural flight; never perch it in the small-bird arrangement or duplicate it elsewhere. Rarity should feel like a naturalist’s discovery, never a dashboard alert.
+
+Use the attached fountain photograph as factual reference, rendered as a soft watercolor environmental background rather than a separate feature. Place the fountain smaller and farther back in the lower-right third. Accurately depict its rectangular brick-lined water feature, pale stone coping, circular brick pedestal, dark seated female statue leaning forward with one arm extended downward, and tall grasses and wooded garden.
+
+Let the garden and fountain fade into the parchment through loose watercolor edges. Avoid a bottom specimen strip, bird lineup, hard divisions, cards, badges, dense dark blocks, excessive statistics, glossy digital styling, or text within 5% of an edge. Preserve calm negative space and render every supplied word, time, and number exactly.

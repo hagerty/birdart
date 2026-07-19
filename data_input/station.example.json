@@ -1,0 +1,7 @@
+{
+  "station": {
+    "id": "YOUR_BIRDWEATHER_STATION_ID",
+    "name": "Optional private station label"
+  }
+}
+
